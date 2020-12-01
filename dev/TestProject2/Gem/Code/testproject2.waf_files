@@ -1,0 +1,18 @@
+{
+    "none": {
+        "Source": [
+            "Source/TestProject2_precompiled.cpp",
+            "Source/TestProject2_precompiled.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/TestProject2/TestProject2Bus.h"
+        ],
+        "Source": [
+            "Source/TestProject2Module.cpp",
+            "Source/TestProject2SystemComponent.cpp",
+            "Source/TestProject2SystemComponent.h"
+        ]
+    }
+}

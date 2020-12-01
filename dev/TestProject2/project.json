@@ -1,0 +1,21 @@
+{
+    "project_name": "TestProject2",
+    "product_name": "TestProject2",
+    "executable_name": "TestProject2Launcher",
+    "modules" : [],
+    "project_id": "{3D4FF11A-4BD9-4DE6-A9A1-0F4E91C54EFE}",
+
+    "android_settings" : {
+        "package_name" : "com.lumberyard.yourgame",
+        "version_number" : 1,
+        "version_name" : "1.0.0.0",
+        "orientation" : "landscape"
+    },
+
+    "durango_settings" : {
+    },
+
+    "orbis_settings": {
+    }
+
+}

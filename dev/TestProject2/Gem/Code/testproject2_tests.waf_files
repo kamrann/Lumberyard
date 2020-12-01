@@ -1,0 +1,7 @@
+{
+    "auto": {
+        "Tests": [
+            "Tests/TestProject2Test.cpp"
+        ]
+    }
+}
