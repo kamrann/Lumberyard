@@ -59,7 +59,13 @@
 				<Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.ScriptCanvasGem.869a0d0ec11a45c299917d45c81555e6.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>
 			</Class>
 			<Class name="DynamicModuleDescriptor" field="element" type="{D2932FA3-9942-4FD2-A703-2E750F57C003}">
+				<Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.TestFirstGem.8d0f4a8c0de0473689393ded85cbfa62.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>
+			</Class>
+			<Class name="DynamicModuleDescriptor" field="element" type="{D2932FA3-9942-4FD2-A703-2E750F57C003}">
 				<Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.ScriptCanvasDiagnosticLibrary.d969b997bb7f4342ba0b3eedc378025d.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>
+			</Class>
+			<Class name="DynamicModuleDescriptor" field="element" type="{D2932FA3-9942-4FD2-A703-2E750F57C003}">
+				<Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.KVisualize.e74ab1f145ac43d99fab306ffd9b47da.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>
 			</Class>
 			<Class name="DynamicModuleDescriptor" field="element" type="{D2932FA3-9942-4FD2-A703-2E750F57C003}">
 				<Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.ScriptCanvasDeveloperGem.f905c05883b94fd6bddc91052c3c5a86.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>

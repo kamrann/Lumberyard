@@ -38,6 +38,12 @@
             "_comment": "Maestro"
         },
         {
+            "Path": "Gems/Clouds",
+            "Uuid": "4f293a6f11ab4cd7b9db3017d12b5eda",
+            "Version": "0.1.0",
+            "_comment": "Clouds"
+        },
+        {
             "Path": "Gems/InputManagementFramework",
             "Uuid": "59b1b2acc1974aae9f18faddcaddac5b",
             "Version": "0.1.0",
@@ -74,6 +80,12 @@
             "_comment": "GraphCanvas"
         },
         {
+            "Path": "Gems/TestFirstGem",
+            "Uuid": "8d0f4a8c0de0473689393ded85cbfa62",
+            "Version": "0.1.0",
+            "_comment": "TestFirstGem"
+        },
+        {
             "Path": "Gems/PhysicsEntities",
             "Uuid": "99ea531451fc4f64a5a9fe8f385e8a76",
             "Version": "0.1.0",
@@ -96,6 +108,18 @@
             "Uuid": "d969b997bb7f4342ba0b3eedc378025d",
             "Version": "0.1.0",
             "_comment": "ScriptCanvasDiagnosticLibrary"
+        },
+        {
+            "Path": "Gems/Lumberyard_Wiki_Scripts-master",
+            "Uuid": "df2857d436a54ecdba56ab1f875bd574",
+            "Version": "0.1.0",
+            "_comment": "WikiScripts"
+        },
+        {
+            "Path": "Gems/KVisualize",
+            "Uuid": "e74ab1f145ac43d99fab306ffd9b47da",
+            "Version": "0.1.0",
+            "_comment": "KVisualize"
         },
         {
             "Path": "Gems/ScriptCanvasDeveloper",
