@@ -1,0 +1,18 @@
+{
+    "none": {
+        "Source": [
+            "Source/TestFirstGem_precompiled.cpp",
+            "Source/TestFirstGem_precompiled.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/TestFirstGem/TestFirstGemBus.h"
+        ],
+        "Source": [
+            "Source/TestFirstGemModule.cpp",
+            "Source/TestFirstGemGameComponent.cpp",
+            "Source/TestFirstGemGameComponent.h"
+        ]
+    }
+}
