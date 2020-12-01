@@ -1,0 +1,11 @@
+{
+    "GemFormatVersion": 3,
+    "Uuid": "df2857d436a54ecdba56ab1f875bd574",
+    "Name": "WikiScripts",
+    "DisplayName": "Wiki Scripts",
+    "Version": "0.1.0",
+    "LinkType": "NoCode",
+    "Summary": "Scripts From LumberyardWiki",
+    "Tags": ["Asset","Scripts"],
+    "IconPath": "preview.png"
+}
