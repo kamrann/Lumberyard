@@ -1,0 +1,32 @@
+Add to SDKs list in SetupAssistantConfig.json
+Then add the library contents at (currently) E:\Lumberyard\Common\3rdParty\kantan\kvisualize\0.1
+
+GEM-encapsulated approach is better if can work, though may not be feasible to share a 3rd party lib between GEMs in that way?
+
+{   
+            "comment" : "Attempt to add custom SDK",
+            "identifier" : "kvisualize",
+            "name" : "Kantan Visualize",
+            "version" : "0.1",
+            "optional" : 1,
+            "description" : "Library required for Kantan debug visualization gem.",
+            "tags" : ["compilegame"],
+            "symlinks" :
+            [
+                {
+                    "source" : "kantan/kvisualize/0.1/include",
+                    "destination" : "$CODEFOLDERNAME$/SDKs/kantan/kvisualize/include",
+                    "exampleFile" : "primitives.h"
+                },
+				{
+                    "source" : "kantan/kvisualize/0.1/thirdparty/eigen",
+                    "destination" : "$CODEFOLDERNAME$/SDKs/kantan/kvisualize/thirdparty/eigen",
+                    "exampleFile" : "signature_of_eigen3_matrix_library"
+                },
+                {
+                    "source" : "kantan/kvisualize/0.1/lib",
+                    "destination" : "$CODEFOLDERNAME$/SDKs/kantan/kvisualize/lib",
+                    "exampleFile" : "x64/kvisualize.lib"
+                }
+            ]
+        }
