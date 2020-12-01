@@ -1,0 +1,22 @@
+{
+    "GemFormatVersion": 4,
+    "Uuid": "e74ab1f145ac43d99fab306ffd9b47da",
+    "Name": "KVisualize",
+    "DisplayName": "KVisualize",
+    "Version": "0.1.0",
+    "Summary": "A short description of my Gem.",
+    "Tags": ["Untagged"],
+    "IconPath": "preview.png",
+    "Modules": [
+        {
+            "Type": "GameModule"
+        }
+    ],
+	"Dependencies": [
+        {
+            "Uuid": "ff06785f7145416b9d46fde39098cb0c",
+            "VersionConstraints": [">=0.1"],
+            "_comment": "LmbrCentral"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "kvisualize",
+    "source": "@GEM@",
+    "description": "Library required for Kantan debug visualization gem.",
+    "includes": ["External/kvisualize/include", "External/kvisualize/thirdparty/eigen", "Code/Include"],
+    "aliases": {
+        "win_staticlib_names": [
+            "kvisualize"
+        ],
+        "kvisualize_api_path" : [
+            "External/kvisualize"
+        ]
+    },
+    "lib_required": "True",
+    "platform": {
+        "win_x64_vs2015": {
+            "libpath_debug": [ "${kvisualize_api_path}/lib/x64/debug" ],
+            "libpath_profile": [ "${kvisualize_api_path}/lib/x64/debug" ],
+            "libpath_performance": [ "${kvisualize_api_path}/lib/x64" ],
+            "libpath_release": [ "${kvisualize_api_path}/lib/x64" ],
+            "lib": [ "${win_staticlib_names}.lib" ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "none": {
+        "Source": [
+            "Source/KVisualize_precompiled.cpp",
+            "Source/KVisualize_precompiled.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/KVisualize/KVisualizeBus.h"
+        ],
+        "Source": [
+            "Source/KVisualizeModule.cpp",
+            "Source/KVisualizeSystemComponent.cpp",
+            "Source/KVisualizeSystemComponent.h",
+            "Source/LY_kv_api.h",
+            "Source/LY_kantan_conversion.h"
+        ],
+        "Source/VisComp": [
+            "Source/VisComp/KVisualizerComponent.cpp",
+            "Source/VisComp/KVisualizerComponent.h"
+        ],
+        "Source/VisComp/Rendering": [
+            "Source/VisComp/Rendering/PrimitiveRenderState.cpp",
+            "Source/VisComp/Rendering/BoxRender.cpp",
+            "Source/VisComp/Rendering/SphereRender.cpp",
+            "Source/VisComp/Rendering/QuadRender.cpp",
+            "Source/VisComp/Rendering/PrimitiveRenderState.h"
+        ]
+    }
+}
